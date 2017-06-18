@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+html {
+  box-sizing: border-box;
+  /*background-color: lightgray;*/
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*BREAKPOINTS
+
+smart  -- 320px -- 544px
+tablet -- 545px -- 768px
+laptop -- 769px -- + and up*/
+
+/*---------------- Break Code ----------------*/
+
+body {
+  background-color: #60d9f1;
+}
+
+
+
+/*---------------- Break Code ----------------*/
+
+@media screen and (min-width: 545px) {}
+
+@media screen and (min-width: 769px) {}
